@@ -51,7 +51,7 @@ var FlipkartPage = function(){
     browser.sleep(1000);
 
     // Click on Login
-    var LoginBtn = element.all(by.css('[type="submit"]'));
+    var LoginBtn = element.all(by.css('[type="submit"]')).get(1);
     LoginBtn.click();
     browser.sleep();
 
